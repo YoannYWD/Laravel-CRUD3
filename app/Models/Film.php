@@ -18,6 +18,6 @@ class Film extends Model
 
     //Cardinalité
     public function categorie() {
-        return $this->hasOne(Cateogrie::class);
+        return $this->hasOne(Categorie::class);
     }
 }
